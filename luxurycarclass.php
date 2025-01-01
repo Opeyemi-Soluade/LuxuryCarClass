@@ -1,10 +1,10 @@
 <?php 
 class SprotsCar {
 // properties
-	public $name;
-	public $type;
-	public $price;
-	public $year;
+	protected $name;
+	protected $type;
+	protected $price;
+	protected $year;
 
 // methods
 	public function __constructor ($name, $type, $price, $year) {
